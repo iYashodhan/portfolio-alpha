@@ -31,7 +31,7 @@ function Footer() {
             </a>
           </p>
           <p className="font-heebo text-xs hover:underline">
-            <a href="https://www.reddit.com/user/iYashodhan" className="">
+            <a href="https://www.reddit.com" className="">
               Reddit
             </a>
           </p>
