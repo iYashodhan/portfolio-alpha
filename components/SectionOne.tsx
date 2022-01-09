@@ -9,11 +9,11 @@ function SectionOne() {
         <p className="font-Heebo text-5xl min-w-md">Full Stack Developer</p>
         <p className="font-heebo text-sm max-w-md min-w-sm">
           I'm Sophomore{" "}
-          <a href="https://nith.ac.in/" className="hover:underline">
+          <a href="https://nith.ac.in/" className="hover:underline font-bold lg:font-medium">
             National Institute of technology, Hamirpur
           </a>
           . Working as a Full Stack Developer at{" "}
-          <a href="https://lurnweb.com/" className="hover:underline">
+          <a href="https://lurnweb.com/" className="hover:underline font-bold lg:font-medium">
             Lurnweb,
           </a>{" "}
           I have managed to learn and experience alot. I'm passionate and love

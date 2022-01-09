@@ -13,3 +13,6 @@ p {
     color: white;
 }
 
+.footer_background{
+    background: url(../public/footer_background.png);
+}

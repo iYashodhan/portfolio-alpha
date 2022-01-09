@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex flex-col justify-around items-center space-y-6 p-4 bg-[url('../public/footer_background.png')] lg:px-36">
+    <div className="flex flex-col justify-around items-center space-y-6 p-4 lg:px-36 footer_background">
       <p className="font-heebo font-bold hover:animate-pulse hover:underline text-3xl">
         LET'S WORK TOGETHER
       </p>

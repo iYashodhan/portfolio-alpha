@@ -11,7 +11,7 @@ function SectionThree() {
         </p>
         <div className="grid grid-cols-3 grid-rows-auto gap-2">
           <SkillsDiv skill="HTML" />
-          <SkillsDiv skill="CSS(Tailwind)" />
+          <SkillsDiv skill="CSS (Tailwind)" />
           <SkillsDiv skill="Python" />
           <SkillsDiv skill="Django" />
           <SkillsDiv skill="Flutter" />

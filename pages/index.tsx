@@ -9,6 +9,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-start lg:items-center space-y-24 p-4">
       <Head>
         <title>Yashodhan</title>
+        <link rel="shortcut icon" type="image/jpg" href="/logo.png"/>
       </Head>
 
       <SectionOne />
