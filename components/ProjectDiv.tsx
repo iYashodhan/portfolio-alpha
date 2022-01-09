@@ -13,7 +13,7 @@ function ProjectDiv({
   hyperlink: string;
 }) {
   return (
-    <div className="bg-white p-2 shadow-lg | flex flex-col space-y-2">
+    <div className="flex flex-col space-y-2 p-2">
       <a href={hyperlink}>
         <Image
           src={image_url}
@@ -24,8 +24,8 @@ function ProjectDiv({
           className="hover:blur-sm"
         />
       </a>
-      <p className="text-md font-Heebo font-bold text-[#1B1F24] w-fit">{name}</p>
-      <p className="text-xs font-Heebo text-[#1B1F24]">{description}</p>
+      <a href={hyperlink} className="text-md font-Heebo font-bold text-white w-fit hover:underline">{name}</a>
+      <p className="text-xs font-Heebo text-white">{description}</p>
     </div>
   );
 }

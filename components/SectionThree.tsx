@@ -3,10 +3,10 @@ import ProjectDiv from "./ProjectDiv";
 
 function SectionThree() {
   return (
-    <div className="flex flex-col items-center space-y-12 lg:flex-row lg:space-x-12 lg:items-center">
+    <div className="flex flex-col items-center space-y-4 lg:grid lg:grid-cols-3 lg:grid-rows-auto lg:space-y-0 lg:gap-4">
       <ProjectDiv
         name="Google Clone"
-        description="A google clone made with Next-Js and Tailwind CSS with Google API handeling the searches"
+        description="A google clone made with Next-Js and Tailwind CSS with Google API handeling the searches."
         image_url="/google.png"
         hyperlink="https://github.com/iYashodhan/google-xerox"
       />

@@ -6,7 +6,7 @@ import SectionThree from "../components/SectionThree";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-around items-center space-y-36 p-4">
+    <div className="flex flex-col items-center justify-start lg:items-center space-y-24 p-4">
       <Head>
         <title>Yashodhan</title>
       </Head>
@@ -14,7 +14,9 @@ export default function Home() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+
       <Footer />
+
     </div>
   );
 }
