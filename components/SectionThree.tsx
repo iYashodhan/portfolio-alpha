@@ -3,7 +3,7 @@ import ProjectDiv from "./ProjectDiv";
 
 function SectionThree() {
   return (
-    <div className="flex justify-around items-center space-x-12">
+    <div className="flex flex-col items-center space-y-12 lg:flex-row lg:space-x-12 lg:items-center">
       <ProjectDiv
         name="Google Clone"
         description="A google clone made with Next-Js and Tailwind CSS with Google API handeling the searches"

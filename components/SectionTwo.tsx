@@ -3,7 +3,7 @@ import SkillsDiv from "./SkillsDiv";
 
 function SectionThree() {
   return (
-    <div className="flex space-x-12 p-8">
+    <div className="flex flex-col space-y-6 lg:space-x-12 lg:flex-row p-8">
       <p className="font-Heebo text-3xl">What I do? Code with purpose.</p>
       <div className="flex flex-col space-y-2">
         <p className="font-Heebo text-lg font-bold hover:underline shadow-sm">

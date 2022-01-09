@@ -3,8 +3,8 @@ import Image from "next/image";
 
 function SectionOne() {
   return (
-    <div className="flex items-center justify-around space-x-24 p-12">
-      <div className="flex flex-col space-y-4">
+    <div className="flex flex-col lg:flex-row items-center justify-around space-x-24 p-12">
+      <div className="flex flex-col space-y-4 z-10 absolute lg:z-0 lg:relative">
         <p className="font-Heebo text-xl min-w-sm">HI, I'M YASHODHAN.</p>
         <p className="font-Heebo text-5xl min-w-md">Full Stack Developer</p>
         <p className="font-heebo text-sm max-w-md min-w-sm">
@@ -41,7 +41,7 @@ function SectionOne() {
         </div>
       </div>
 
-      <div className="">
+      <div className="blur-sm lg:blur-none">
         <Image src="/myimg.jpg" height={480} width={270} />
       </div>
     </div>
